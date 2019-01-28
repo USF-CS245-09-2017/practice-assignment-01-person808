@@ -16,10 +16,7 @@ class Fibonacci {
         int prevFib = 1;
         int fib = 1;
 
-        int result = 0;
-
         for (int i = 2; i < n; i++) {
-            result += fib;
             int temp = fib;
             fib += prevFib;
             prevFib = temp;
